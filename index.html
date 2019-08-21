@@ -1,23 +1,22 @@
+<!DOCTYPE html>
 <html>
-
-<head>
-
-<title> Hello World </title>
-
-</head>
-
 <body>
-H
-E
-L
-L
-O
 
-W
-O
-R
-L
-D
+<p>Click the button to join two strings into one new string.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var str1 = "Hello ";
+  var str2 = "world!";
+  var res = str1.concat(str2);
+  document.getElementById("demo").innerHTML = res;
+}
+</script>
 
 </body>
+
 </html>
